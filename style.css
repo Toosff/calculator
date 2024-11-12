@@ -1,0 +1,31 @@
+body {
+    background-color: #e9ecef;
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    width: 350px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #343a40;
+}
+
+input[type="text"] {
+    border: 2px solid #4CAF50; 
+    border-radius: 5px;
+    font-size: 16px; 
+}
+
+button {
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    opacity: 0.9; /* Сделать кнопки менее непрозрачными при наведении */
+}
+
+#result {
+    color: #28a745; /* зеленый цвет для результата */
+}
